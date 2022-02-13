@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+    position: relative;
+}
+.container {
+    background-color: cornsilk;
+    margin: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    
+}
+.addTicket {
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    margin-right: 2%;
+    padding: 10px;
+    background-color: aquamarine;
+}
+.addTicketModul {
+    display: none;
+   width: 300px;
+   background-color: rgb(240, 240, 158);
+   top: 10px;
+   left: calc(50% - 150px);   
+   position: absolute;
+   border-radius: 15px;
+}
+.repearTicketModul {
+    display: none;
+   width: 300px;
+   background-color: rgb(240, 240, 158);
+   top: 10px;
+   left: calc(50% - 150px);   
+   position: absolute;
+   border-radius: 15px;
+}
+.deleteTicketModul {
+    display: none;
+   width: 300px;
+   background-color: rgb(240, 240, 158);
+   top: 10px;
+   left: calc(50% - 150px);   
+   position: absolute;
+   border-radius: 15px;
+}
+.ticketForm {
+    margin: 20px;
+}
+.label {
+    display: block;
+}
+.descriptionText {
+    display: block;
+}
+.buttonTicketOk {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.buttonTicketNo {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.ticket {
+    width: 90%;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    display: flex;
+}
+.result {
+    width: 5%;
+    height: 20px;
+    margin-left: 5px;
+}
+.ticketText {
+    width: 80%;
+    font-size: 16px;
+    margin-top: 5px;
+    display: block;
+    word-break:break-all;
+}
+.ticketShortText {
+    font-weight: 700;
+}
+.ticketFullText {
+    display: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+.time {
+    width: 10%;
+    font-size: 20px;
+}
+.repear {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.repear::after {
+    content: '\270E';
+    color: rgb(16, 95, 42);
+}
+.delete {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.delete::after {
+    content: '\2718';
+    color: red;
+}
+.modulTitle {
+    text-align: center;
+}
+.deleteModulTicketText {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+}

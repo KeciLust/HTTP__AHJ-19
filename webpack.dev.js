@@ -12,7 +12,9 @@ module.exports = merge(common, {
   // Spin up a server for quick development
   devServer: {
     historyApiFallback: true,
-    contentBase: path.resolve(__dirname, './dist'),
+    static: {
+      directory: path.join(__dirname, './dist'),
+    },
     open: true,
     compress: true,
     port: 9000,

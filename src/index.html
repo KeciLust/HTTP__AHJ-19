@@ -7,6 +7,42 @@
   <title>Help Desk</title>
 </head>
 <body>
-
+<div class="container">
+  <button class="addTicket">Добавить тикет</button>
+  </div>
+  <div class="addTicketModul">
+    <h3 class="modulTitle">Добавить тикет.</h3>
+  <form action="" method="" class="ticketForm">
+    <div class="shortDescription">
+      <label class = "label">Краткое описание
+        <input type="text" name="short" class="descriptionChortText">
+      </label>
+    </div>
+    <div class="fulltDescription"> <label class = "label">Полное описание
+      <input type="text" name="full" class="descriptionFullText">
+    </label></div>
+    <button class="buttonTicketOk">OK</button>
+    <button class="buttonTicketNo">Отмена</button>
+  </form></div>
+  <div class="repearTicketModul">
+    <h3 class="modulTitle">Изменить тикет.</h3>
+    <form action="" method="" class="ticketForm">
+      <div class="shortDescription">
+        <label class = "label">Краткое описание
+          <input type="text" name="short" class="descriptionChortText">
+        </label>
+      </div>
+      <div class="fulltDescription"> <label class = "label">Полное описание
+        <input type="text" name="full" class="descriptionFullText">
+      </label></div>
+      <button class="buttonTicketOk">OK</button>
+      <button class="buttonTicketNo">Отмена</button>
+    </form></div>
+    <div class="deleteTicketModul">
+      <h3 class="modulTitle">Удалить тикет.</h3>
+      <span class="deleteModulTicketText">Вы уверены что хотите удалить тикет? Это действие не обратимо!</span>
+      <button class="buttonTicketOk ticketForm">OK</button>
+      <button class="buttonTicketNo">Отмена</button>
+    </div>
 </body>
 </html>
